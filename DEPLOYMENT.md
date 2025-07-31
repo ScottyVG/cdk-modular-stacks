@@ -114,6 +114,8 @@ cdk destroy Database-dev Api-dev --context stage=dev
 - S3 public access enabled for direct website hosting
 - No CloudFront distribution
 
+**⚠️ Security Warning**: The dev environment creates a publicly accessible S3 bucket for direct website hosting. Be aware that any files uploaded to this bucket will be publicly readable on the internet.
+
 ### Staging
 - Full monitoring with alerts
 - Backups enabled
