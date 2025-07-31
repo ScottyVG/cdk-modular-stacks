@@ -1,0 +1,12 @@
+{
+  "name": "lambda-functions",
+  "version": "1.0.0",
+  "description": "Lambda functions for CDK modular stacks example",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.1691.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
